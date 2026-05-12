@@ -23,10 +23,10 @@ function App() {
 
   const [movies, setMovies] = useState(INITIAL_MOVIES);
 
-  // 🌙 NEW: Dark mode state
+  
   const [darkMode, setDarkMode] = useState(false);
 
-  // 🌙 NEW: Toggle function
+ 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
   };
