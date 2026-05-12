@@ -70,10 +70,10 @@ function App() {
   return (
     <BrowserRouter>
 
-      {/* 🌙 NEW: wrapper for dark mode */}
+      {/* wrapper for dark mode */}
       <div className={darkMode ? "app dark" : "app"}>
 
-        {/* 🌙 pass props to Navbar */}
+        {/*  pass props to Navbar */}
         <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
 
         <div className="main-container">
