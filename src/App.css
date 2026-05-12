@@ -183,7 +183,7 @@ body {
   padding: 16px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   border: 1px solid #e2e8f0;
-  border-left-width: 4px;      /* colored left border per watched status */
+  border-left-width: 4px;     
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -316,7 +316,7 @@ footer {
   color: #e2e8f0;
 }
 
-/* Navbar stays dark but slightly adjusted */
+
 .app.dark .navbar {
   background: #020617;
 }
@@ -357,7 +357,7 @@ footer {
   color: #cbd5f5;
 }
 
-/* Buttons (slight tweak) */
+/* Buttons  */
 .app.dark .btn-gray {
   background: #334155;
   color: #e2e8f0;
