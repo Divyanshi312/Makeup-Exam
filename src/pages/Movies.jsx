@@ -65,7 +65,7 @@ function Movies({ movies, onAdd, onToggleWatch, onToggleFavorite, onDelete }) {
   const filteredMovies = movies.filter((movie) => {
     const matchesSearch = movie.name.toLowerCase().includes(search.toLowerCase());
     const matchesGenre  = filterGenre === 'All' || movie.genre === filterGenre;
-    return matchesSearch && matchesGenre; // both must be true
+    return matchesSearch && matchesGenre; 
   });
 
 
